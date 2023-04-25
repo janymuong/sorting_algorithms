@@ -24,4 +24,5 @@ Sample examples of the most common **Big-O notations**:
 
 ---
 > sample algorithms, for context: `bubble sort`, `selection sort`, `insertion sort`, `quick sort`, `merge sort`, `radix sort`
+<br></br>
 ![meme :)](./img/willy-wonka.png)
