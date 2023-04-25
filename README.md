@@ -1,6 +1,6 @@
 # `C`- Sorting algorithms & Big O
 
-> data structures, algorithms
+> data structures, algorithms <br/>
 > covers: implementation of sorting algorithms, asymptotic analysis, and BIG - O notation
 
 ## Sorting Algorithms
