@@ -9,10 +9,11 @@
  */
 void quick_sort(int *array, size_t size)
 {
-	if (array && size > 1)
+	if (size < 2)
 	{
-		sort_recursive(array, 0, size - 1, size);
+		return;
 	}
+	sort_recursive(array, 0, size - 1, size);
 }
 
 /**
@@ -47,24 +48,30 @@ void sort_recursive(int *array, int left, int right, size_t size)
  */
 int _split(int *array, int left, int right, size_t size)
 {
+	int pivot;
+	int i = left;
 	int j;
-	int pivot = array[right];
-	int i = left - 1;
 
+	pivot = array[right];
 	for (j = left; j < right; j++)
 	{
-		if (array[j] < pivot)
+		if (array[j] <= pivot)
 		{
-			i++;
 			swap(&array[i], &array[j]);
-			print_array(array, size);
+
+			if (i != j)
+				print_array(array, size);
+
+			i++;
 		}
 	}
 
-	swap(&array[i + 1], &array[right]);
-	print_array(array, size);
-
-	return (i + 1);
+	swap(&array[i], &array[right]);
+	if (i != j)
+	{
+		print_array(array, size);
+	}
+	return (i);
 }
 
 /**
