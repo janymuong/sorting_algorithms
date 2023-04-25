@@ -25,6 +25,10 @@ void swap(int *xp, int *yp);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
+/* subsets of quicksort */
+int _split(int *array, int left, int right, size_t size);
+void sort_recursive(int *array, int left, int right, size_t size);
+
 /* prototypes for: algorithms */
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
