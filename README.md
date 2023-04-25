@@ -6,6 +6,8 @@
 ## Sorting Algorithms
 Sorting algorithms are a type of algorithm that takes an array of elements and sorts them based on some defined order eg ascending or descending order, or some form of a lexicographical operation.
 
+> sample algorithms, for context: <br/>`bubble sort`, `selection sort`, `insertion sort`, `quick sort`, `merge sort`, `radix sort`
+
 
 ## Asymptotic Analysis
 Asymptotic analysis is a way of analyzing the performance of algorithms as the size of the input increases and not paying attention to the machine specific implemenation. Asymptotic analysis is used to compare the performance of different algorithms and to choose the best algorithm for a given problem.
@@ -23,8 +25,4 @@ Sample examples of the most common **Big-O notations**:
 - `O(nlog(n))`: the time complexity of `nlog(n)` growth, which is possible if we are using a balanced `binary search tree` and working with some array that is sorted.
 
 ---
-> sample algorithms, for context: `bubble sort`, `selection sort`, `insertion sort`, `quick sort`, `merge sort`, `radix sort`
-
-<br></br>
-
 ![meme :)](./img/willy-wonka.png)
