@@ -23,4 +23,5 @@ Sample examples of the most common **Big-O notations**:
 - `O(nlog(n))`: the time complexity of `nlog(n)` growth, which is possible if we are using a balanced `binary search tree` and working with some array that is sorted.
 
 ---
+Sample algorthms, for context: `bubble sort`, `selection sort`, `insertion sort`, `quick sort`, `merge sort`, `radix sort`
 ![meme :)](./img/willy-wonka.png)
